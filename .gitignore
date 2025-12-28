@@ -39,6 +39,7 @@ bld/
 
 .next/
 /.next
+
 node_modules/
 
 # Build results on 'Bin' directories
