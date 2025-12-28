@@ -16,8 +16,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
-        changeFrequency: 'date' as const, // 'daily' | 'weekly' | 'monthly' etc. But types expect specific strings or nothing. 'daily' is common.
-        // simpler:
         changeFrequency: 'weekly' as const,
         priority: route === '' ? 1 : 0.8,
     }));
