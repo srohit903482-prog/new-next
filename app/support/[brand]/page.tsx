@@ -49,7 +49,6 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
                     color: brand.color,
                     border: `2px solid ${brand.color}`,
                     borderRadius: "5px"
-                
                   }}
                   href="/troubleshooting"
                   className="bg-white tet-medium-blue borde-2 borer-medium-blue px-8 py-4 rounded-lg hover:text-black hover:border-black font-semibold transition-colors text-center transform hover:-translate-y-1 transition-all"
@@ -87,7 +86,10 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
                 key={index}
                 className="bg-soft-gray p-6 rounded-xl text-center hover:shadow-md transition-shadow border border-light-gray"
               >
-                <i className="fas fa-print text-4xl text-medium-blue mb-4"></i>
+                <i  style={{
+              color: brand.color,
+              border: `px solid ${brand.color}`,
+            }} className="fas fa-print text-4xl text-medium-blue mb-4"></i>
                 <h3 className="font-semibold text-gray-800">{item}</h3>
               </div>
             ))}
@@ -108,7 +110,10 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
                 className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow"
               >
                 <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center text-medium-blue text-2xl mb-6">
-                  <i className={`fas ${issue.icon}`}></i>
+                  <i style={{
+              color: brand.color,
+              border: `px solid ${brand.color}`,
+            }} className={`fas ${issue.icon}`}></i>
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3">{issue.title}</h3>
                 <p className="text-gray-600 mb-6">{issue.description}</p>
@@ -134,8 +139,13 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
             Our certified technicians are ready to diagnose and fix your printer issues remotely or onsite.
           </p>
           <a
+            style={{
+              background: brand.color,
+              border: `2px solid ${brand.color}`,
+              borderRadius: "5px"
+            }}
             href="tel:9034821319"
-            className="inline-block bg-accent-teal text-white text-xl font-bold px-10 py-5 rounded-full hover:bg-white hover:text-accent-teal transition-all transform hover:scale-105 shadow-lg"
+            className="inline-block  text-white text-xl font-bold px-10 py-5 rounded-full hover:bg-white hover:text-accent-teal transition-all transform hover:scale-105 shadow-lg"
           >
             Call 903-482-1319
           </a>
