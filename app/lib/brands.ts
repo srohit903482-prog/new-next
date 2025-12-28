@@ -4,6 +4,8 @@ export interface BrandData {
     fullName: string;
     slug: string;
     logo: string;
+    color:string;
+    border:string;
     printerImage: string;
     description: string;
     heroGradient: string;
@@ -17,6 +19,8 @@ export const brandsData: Record<string, BrandData> = {
         fullName: "HP (Hewlett-Packard)",
         slug: "hp",
         logo: "/images/hp-logo.png",
+        color:"#5B9BD5",
+        border:"#5B9BD5",
         printerImage: "/images/hp-printer.png",
         description: "Specialized technical assistance for all HP printer models. We resolve connection issues, driver problems, and hardware glitches.",
         heroGradient: "from-blue-50 to-white",
@@ -33,6 +37,10 @@ export const brandsData: Record<string, BrandData> = {
         fullName: "Brother",
         slug: "brother",
         logo: "/images/brother-logo.png",
+        color:"#0d2ea0",
+        border:"#5B9BD5",
+
+
         printerImage: "/images/brother-printer.png",
         description: "Expert technical assistance for all Brother printer models. Fast solutions for home and office equipment.",
         heroGradient: "from-blue-50 to-white",
@@ -48,6 +56,10 @@ export const brandsData: Record<string, BrandData> = {
         name: "Canon",
         fullName: "Canon",
         slug: "canon",
+        color:"#e41920",
+        border:"#5B9BD5",
+
+
         logo: "/images/canon-logo.png",
         printerImage: "/images/canon-printer.png",
         description: "Professional technical assistance for all Canon printer models. Quality support for PIXMA, MAXIFY and imageCLASS series.",

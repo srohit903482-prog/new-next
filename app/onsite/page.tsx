@@ -48,7 +48,7 @@ export default function OnsitePage() {
                                 <div className="bg-accent-sage text-white w-16 h-16 rounded-full flex items-center justify-center">
                                     <i className="fas fa-tools text-2xl"></i>
                                 </div>
-                                <h1 className="text-4xl md:text-5xl font-bold text-professional-navy">Onsite Printer Service</h1>
+                                <h1 className="text-xl whitespace-nowrap md:whitespace-normal md:text-5xl font-bold text-professional-navy">Onsite Printer Service</h1>
                             </div>
                             <p className="text-xl text-medium-gray mb-8 leading-relaxed">
                                 Professional technicians come to your location to diagnose and repair your printer.
@@ -328,7 +328,7 @@ export default function OnsitePage() {
             </section>
 
             {/* Emergency Service CTA */}
-            <section className="section-padding bg-professional-navy text-white">
+            {/* <section className="section-padding bg-professional-navy text-white">
                 <div className="container mx-auto px-6 text-center">
                     <h2 className="text-3xl font-bold mb-6">Emergency Printer Service Available</h2>
                     <p className="text-xl mb-8 max-w-2xl mx-auto">Critical printer failure? We offer emergency onsite service with priority response times.</p>
@@ -338,7 +338,7 @@ export default function OnsitePage() {
                         <span>Emergency Service: 903-482-1319</span>
                     </a>
                 </div>
-            </section>
+            </section> */}
 
         </main>
     );

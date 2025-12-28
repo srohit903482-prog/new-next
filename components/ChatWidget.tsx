@@ -76,7 +76,7 @@ export default function ChatWidget() {
             {!isOpen && (
                 <button
                     onClick={toggleChat}
-                    className="fixed bottom-24 right-6 z-50 bg-professional-navy text-white p-4 rounded-full shadow-lg hover:bg-medium-blue transition-colors duration-300 flex items-center justify-center w-14 h-14"
+                    className="fixed bottom-16 right-6 z-50 bg-blue-500 text-white p-4 rounded-full shadow-lg hover:bg-medium-blue transition-colors duration-300 flex items-center justify-center w-14 h-14"
                     aria-label="Open Chat"
                 >
                     <i className="fas fa-comment-dots text-xl"></i>

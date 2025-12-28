@@ -57,7 +57,7 @@ export default function Footer() {
             </div>
 
             {/* Floating Widgets */}
-            <div className="fixed bottom-6 right-6 z-50">
+            {/* <div className="fixed bottom-6 right-6 z-50">
                 <div className="flex flex-col items-end space-y-3">
                     <a href="tel:9034821319" className="bg-accent-teal text-white w-14 h-14 rounded-full flex items-center justify-center floating-action cursor-pointer shadow-lg">
                         <i className="fas fa-phone text-xl"></i>
@@ -66,7 +66,7 @@ export default function Footer() {
                         <i className="fas fa-comment-dots text-xl"></i>
                     </button>
                 </div>
-            </div>
+            </div> */}
         </footer>
     );
 }

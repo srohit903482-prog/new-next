@@ -147,7 +147,7 @@ export default function RepairPage() {
 
                     <div className="flex flex-col sm:flex-row gap-6 justify-center">
                         <a href="tel:9034821319" className="bg-accent-teal hover:bg-white hover:text-accent-teal px-8 py-4 rounded-xl font-semibold hover-lift inline-block floating-action">
-                            <i className="fas fa-phone mr-2"></i>Call for Repair Service: 903-482-1319
+                            <i className="fas fa-phone mr-2"></i>Repair Service: 903-482-1319
                         </a>
                         <Link href="/onsite" className="bg-accent-sage hover:bg-white hover:text-accent-sage px-8 py-4 rounded-xl font-semibold hover-lift inline-block floating-action">
                             <i className="fas fa-calendar mr-2"></i>Schedule Onsite Repair

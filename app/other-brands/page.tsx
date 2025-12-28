@@ -26,7 +26,7 @@ export default function OtherBrandsPage() {
                 <div className="container mx-auto px-6">
                     <h2 className="text-3xl font-bold text-professional-navy text-center mb-12">All Printer Brands Supported</h2>
 
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {[
                             { name: "Epson", desc: "EcoTank, WorkForce, Expression", color: "soft-blue", btnColor: "accent-teal", url: "/images/epson-logo.png" },
                             { name: "Xerox", desc: "VersaLink, AltaLink, WorkCentre", color: "warm-gray", btnColor: "accent-sage", url: "/images/xerox-logo.png" },
@@ -105,7 +105,7 @@ export default function OtherBrandsPage() {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                        <a href="tel:9034821319" className="bg-accent-teal hover:bg-white hover:text-accent-teal px-8 py-4 rounded-xl font-semibold hover-lift inline-block floating-action">
+                        <a href="tel:9034821319" className="bg-accent-teal hover:bg-white hover:text-accent-teal text-sm whitespace-nowrap px-8 py-4 rounded-xl font-semibold hover-lift inline-block floating-action">
                             <i className="fas fa-phone mr-2"></i>Ask About Your Brand: 903-482-1319
                         </a>
                         <Link href="/contact" className="bg-medium-blue hover:bg-white hover:text-medium-blue px-8 py-4 rounded-xl font-semibold hover-lift inline-block floating-action">

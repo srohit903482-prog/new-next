@@ -115,7 +115,7 @@ export default function Home() {
                                     Call our support line, and our technician will guide you through a simple process to establish a secure remote connection. We'll then diagnose and fix your printer issues in real-time.
                                 </p>
                             </div>
-                            <a href="tel:9034821319" className="inline-flex items-center gap-4 bg-medium-blue hover:bg-professional-navy text-white px-8 py-4 rounded-xl font-semibold hover-lift floating-action">
+                            <a href="tel:9034821319" className="inline-flex items-center gap-4 bg-medium-blue whitespace-nowrap text-sm hover:bg-professional-navy text-white px-8 py-4 rounded-xl font-semibold hover-lift floating-action">
                                 <i className="fas fa-laptop"></i> Start Remote Support: 903-482-1319
                             </a>
                         </div>
@@ -171,7 +171,7 @@ export default function Home() {
                                     We provide onsite technician services in all major metropolitan areas. Contact us to check availability in your location.
                                 </p>
                             </div>
-                            <Link href="/onsite" className="inline-flex items-center gap-4 bg-accent-sage hover:text-white hover:bg-professional-navy text-professional-navy px-8 py-4 rounded-xl font-semibold hover-lift floating-action border-2 border-accent-sage">
+                            <Link href="/onsite" className="inline-flex items-center gap-4 bg-accent-sage hover:text-white whitespace-nowrap text-sm hover:bg-professional-navy text-professional-navy px-8 py-4 rounded-xl font-semibold hover-lift floating-action border-2 border-accent-sage">
                                 <i className="fas fa-calendar-check"></i> Book Onsite Technician: 903-482-1319
                             </Link>
                         </div>
@@ -188,7 +188,7 @@ export default function Home() {
                     </div>
 
                     {/* Primary Brands */}
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
 
                         {/* HP Brand Card */}
                         <div className="bg-white rounded-2xl overflow-hidden card-shadow brand-card-hover border border-light-gray">

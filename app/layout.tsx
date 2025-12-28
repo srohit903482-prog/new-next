@@ -36,7 +36,7 @@ export default function RootLayout({
                 </ChatProvider>
 
                 {/* External Scripts */}
-                <Script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js" strategy="lazyOnload" />
+                {/* <Script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js" strategy="lazyOnload" /> */}
             </body>
         </html>
     );
