@@ -335,6 +335,7 @@ export default function Home() {
 
                         {/* Driver & Software Issues */}
                         
+                        
                         <div className="bg-white rounded-2xl p-8 card-shadow hover-lift border border-light-gray">
                             <div className="bg-medium-blue text-white w-14 h-14 rounded-full flex items-center justify-center mb-6"><i className="fas fa-cogs text-xl"></i></div>
                             <h3 className="text-2xl font-bold text-professional-navy mb-4">Driver &amp; Software Issues</h3>
