@@ -89,7 +89,7 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
                 <i  style={{
               color: brand.color,
               border: `px solid ${brand.color}`,
-            }} className="fas fa-print text-4xl text-medium-blue mb-4"></i>
+            }} className="fas fa-print text-4xl text-[#0096D6] mb-4"></i>
                 <h3 className="font-semibold text-gray-800">{item}</h3>
               </div>
             ))}
@@ -109,7 +109,7 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
                 key={index}
                 className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow"
               >
-                <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center text-medium-blue text-2xl mb-6">
+                <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center text-[#0096D6] text-2xl mb-6">
                   <i style={{
               color: brand.color,
               border: `px solid ${brand.color}`,
@@ -119,7 +119,7 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
                 <p className="text-gray-600 mb-6">{issue.description}</p>
                 <Link
                   href="/troubleshooting"
-                  className="text-medium-blue font-semibold hover:text-professional-navy flex items-center"
+                  className="text-[#0096D6] font-semibold hover:text-professional-navy flex items-center"
                 >
                   Learn more <i className="fas fa-arrow-right ml-2 text-sm"></i>
                 </Link>

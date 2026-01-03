@@ -259,7 +259,7 @@ export default function TroubleshootingPage() {
                                 <h3 className="font-bold text-lg text-professional-navy">HP Support</h3>
                             </div>
                             <p className="text-sm text-medium-gray mb-4">Specialized solutions for LaserJet, OfficeJet and Envy series.</p>
-                            <span className="text-medium-blue font-semibold text-sm">View Guide →</span>
+                            <span className="text-[#0096D6] font-semibold text-sm">View Guide →</span>
                         </Link>
 
                         <Link href="/support/brother" className="block bg-soft-blue rounded-xl p-6 card-shadow hover-lift">
@@ -268,7 +268,7 @@ export default function TroubleshootingPage() {
                                 <h3 className="font-bold text-lg text-professional-navy">Brother Support</h3>
                             </div>
                             <p className="text-sm text-medium-gray mb-4">Expert help for MFC, HL and DCP printer models.</p>
-                            <span className="text-medium-blue font-semibold text-sm">View Guide →</span>
+                            <span className="text-[#0096D6] font-semibold text-sm">View Guide →</span>
                         </Link>
 
                         <Link href="/support/canon" className="block bg-soft-blue rounded-xl p-6 card-shadow hover-lift">
@@ -277,7 +277,7 @@ export default function TroubleshootingPage() {
                                 <h3 className="font-bold text-lg text-professional-navy">Canon Support</h3>
                             </div>
                             <p className="text-sm text-medium-gray mb-4">Technical assistance for PIXMA, MAXIFY and imageCLASS.</p>
-                            <span className="text-medium-blue font-semibold text-sm">View Guide →</span>
+                            <span className="text-[#0096D6] font-semibold text-sm">View Guide →</span>
                         </Link>
                     </div>
                 </div>

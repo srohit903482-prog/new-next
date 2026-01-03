@@ -108,7 +108,7 @@ export default function OtherBrandsPage() {
                         <a href="tel:9034821319" className="bg-accent-teal hover:bg-white hover:text-accent-teal text-sm whitespace-nowrap px-8 py-4 rounded-xl font-semibold hover-lift inline-block floating-action">
                             <i className="fas fa-phone mr-2"></i>Ask About Your Brand: 903-482-1319
                         </a>
-                        <Link href="/contact" className="bg-medium-blue hover:bg-white hover:text-medium-blue px-8 py-4 rounded-xl font-semibold hover-lift inline-block floating-action">
+                        <Link href="/contact" className="bg-medium-blue hover:bg-white hover:text-[#0096D6] px-8 py-4 rounded-xl font-semibold hover-lift inline-block floating-action">
                             <i className="fas fa-envelope mr-2"></i>Contact Support Team
                         </Link>
                     </div>

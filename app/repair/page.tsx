@@ -79,7 +79,7 @@ export default function RepairPage() {
                                     "Calibration and alignment"
                                 ].map((item, i) => (
                                     <li key={i} className="flex items-center">
-                                        <i className="fas fa-check text-medium-blue mr-3"></i>
+                                        <i className="fas fa-check text-[#0096D6] mr-3"></i>
                                         <span>{item}</span>
                                     </li>
                                 ))}

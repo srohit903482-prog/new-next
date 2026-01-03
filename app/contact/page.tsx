@@ -78,7 +78,7 @@ export default function ContactPage() {
                                     </div>
                                     <h3 className="text-xl font-bold text-professional-navy mb-2">Email Support</h3>
                                     <p className="text-medium-gray mb-2">Response within 2 hours</p>
-                                    <a href="mailto:support@printertechnical.com" className="text-medium-blue font-medium hover:text-professional-navy transition-colors">
+                                    <a href="mailto:support@printertechnical.com" className="text-[#0096D6] font-medium hover:text-professional-navy transition-colors">
                                         Send Email →
                                     </a>
                                 </div>

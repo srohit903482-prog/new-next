@@ -23,30 +23,30 @@ export default function Footer() {
                     <div>
                         <h4 className="text-lg font-semibold mb-6">Brand Support</h4>
                         <ul className="space-y-3">
-                            <li><Link href="/support/hp" className="text-gray-300 hover:text-medium-blue">HP Support</Link></li>
-                            <li><Link href="/support/brother" className="text-gray-300 hover:text-medium-blue">Brother Support</Link></li>
-                            <li><Link href="/support/canon" className="text-gray-300 hover:text-medium-blue">Canon Support</Link></li>
-                            <li><Link href="/other-brands" className="text-gray-300 hover:text-medium-blue">Other Brands</Link></li>
+                            <li><Link href="/support/hp" className="text-gray-300 hover:text-[#0096D6]">HP Support</Link></li>
+                            <li><Link href="/support/brother" className="text-gray-300 hover:text-[#0096D6]">Brother Support</Link></li>
+                            <li><Link href="/support/canon" className="text-gray-300 hover:text-[#0096D6]">Canon Support</Link></li>
+                            <li><Link href="/other-brands" className="text-gray-300 hover:text-[#0096D6]">Other Brands</Link></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4 className="text-lg font-semibold mb-6">Services</h4>
                         <ul className="space-y-3">
-                            <li><Link href="/troubleshooting" className="text-gray-300 hover:text-medium-blue">Troubleshooting</Link></li>
-                            <li><Link href="/onsite" className="text-gray-300 hover:text-medium-blue">Onsite Service</Link></li>
-                            <li><Link href="/driver-downloads" className="text-gray-300 hover:text-medium-blue">Driver Downloads</Link></li>
-                            <li><Link href="/repair" className="text-gray-300 hover:text-medium-blue">Printer Repair</Link></li>
+                            <li><Link href="/troubleshooting" className="text-gray-300 hover:text-[#0096D6]">Troubleshooting</Link></li>
+                            <li><Link href="/onsite" className="text-gray-300 hover:text-[#0096D6]">Onsite Service</Link></li>
+                            <li><Link href="/driver-downloads" className="text-gray-300 hover:text-[#0096D6]">Driver Downloads</Link></li>
+                            <li><Link href="/repair" className="text-gray-300 hover:text-[#0096D6]">Printer Repair</Link></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4 className="text-lg font-semibold mb-6">Contact</h4>
                         <ul className="space-y-3">
-                            <li><a href="tel:9034821319" className="text-gray-300 hover:text-medium-blue">903-482-1319</a></li>
-                            <li><Link href="/contact" className="text-gray-300 hover:text-medium-blue">Contact Form</Link></li>
-                            <li><Link href="/privacy-policy" className="text-gray-300 hover:text-medium-blue">Privacy Policy</Link></li>
-                            <li><Link href="/terms" className="text-gray-300 hover:text-medium-blue">Terms of Service</Link></li>
+                            <li><a href="tel:9034821319" className="text-gray-300 hover:text-[#0096D6]">903-482-1319</a></li>
+                            <li><Link href="/contact" className="text-gray-300 hover:text-[#0096D6]">Contact Form</Link></li>
+                            <li><Link href="/privacy-policy" className="text-gray-300 hover:text-[#0096D6]">Privacy Policy</Link></li>
+                            <li><Link href="/terms" className="text-gray-300 hover:text-[#0096D6]">Terms of Service</Link></li>
                         </ul>
                     </div>
                 </div>

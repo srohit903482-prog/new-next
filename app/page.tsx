@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import TrustedBrands from '@/components/TrustedBrands';
+import CustomerTestimonials from '@/components/CustomerTestimonials';
 
 export default function Home() {
     return (
@@ -13,7 +15,7 @@ export default function Home() {
                 <div className="relative container mx-auto px-6 py-20 md:py-32 text-center">
                     <div className="max-w-4xl mx-auto">
                         <h1 className="text-4xl md:text-6xl font-bold text-professional-navy mb-6 leading-tight">
-                            Professional Printer<br /><span className="text-medium-blue">Technical Support</span>
+                            Professional Printer<br /><span className="text-[#0096D6]">Technical Support</span>
                         </h1>
                         <p className="text-lg md:text-xl text-medium-gray max-w-2xl mx-auto mb-12 leading-relaxed">
                             Expert troubleshooting and technical solutions for HP, Brother, Canon, and all major printer brands. Certified technicians ready to resolve your printer issues quickly and professionally.
@@ -84,7 +86,7 @@ export default function Home() {
                         <div>
                             <div className="mb-8">
                                 <h2 className="text-3xl md:text-4xl font-bold text-professional-navy mb-4">
-                                    Remote <span className="text-medium-blue">Technical Support</span>
+                                    Remote <span className="text-[#0096D6]">Technical Support</span>
                                 </h2>
                                 <p className="text-lg text-medium-gray leading-relaxed">
                                     Get immediate assistance for your printer issues without leaving your home or office. Our certified technicians provide secure remote connections to diagnose and resolve most printer problems quickly and efficiently.
@@ -137,7 +139,7 @@ export default function Home() {
                             />
                         </div>
                         {/* Content Column */}
-                        <div className="order-1 lg:order-2">
+                        <div className="order-2 lg:order-2">
                             <div className="mb-8">
                                 <h2 className="text-3xl md:text-4xl font-bold text-professional-navy mb-4">
                                     Onsite <span className="text-accent-sage">Technician Service</span>
@@ -249,7 +251,7 @@ export default function Home() {
                                     <Image src="/images/canon-logo.png" alt="Canon Logo" fill className="object-contain" />
                                 </div>
                                 <h3 className="text-2xl font-bold text-professional-navy mb-4">Canon Printers</h3>
-                                <div className="relative w-80 h-48">
+                                <div className="relative w-64 h-48">
                                     <Image src="/images/canon-printer.png" alt="Canon Printer" fill className="object-contain" />
                                 </div>
                             </div>
@@ -258,7 +260,7 @@ export default function Home() {
                                 <div className="space-y-3 mb-6">
                                     {["Photo printing optimization", "Wireless printing setup", "Mobile printing solutions"].map((item, i) => (
                                         <div key={i} className="flex items-center text-sm">
-                                            <i className="fas fa-check-circle text-medium-blue mr-3"></i> <span>{item}</span>
+                                            <i className="fas fa-check-circle text-[#0096D6] mr-3"></i> <span>{item}</span>
                                         </div>
                                     ))}
                                 </div>
@@ -305,7 +307,7 @@ export default function Home() {
                             <div className="space-y-3 mb-8">
                                 {["Print head cleaning and nozzle checks", "Compatible cartridge identification", "Cartridge chip reset procedures"].map((item, i) => (
                                     <div key={i} className="flex items-start">
-                                        <i className="fas fa-chevron-right text-medium-blue mr-3 mt-1 text-sm"></i> <span className="text-professional-navy">{item}</span>
+                                        <i className="fas fa-chevron-right text-[#0096D6] mr-3 mt-1 text-sm"></i> <span className="text-professional-navy">{item}</span>
                                     </div>
                                 ))}
                             </div>
@@ -349,6 +351,8 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+                <CustomerTestimonials/>
+                <TrustedBrands/>
             </section>
         </main>
     );

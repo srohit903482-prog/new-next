@@ -10,7 +10,7 @@ export default function Header() {
                         <div className="bg-medium-blue text-white p-2 rounded-lg">
                             <i className="fas fa-print"></i>
                         </div>
-                        <Link href="/" className="hover:text-medium-blue text-sm md:text-lg whitespace-nowrap transition-colors">
+                        <Link href="/" className="hover:text-[#0096D6] text-sm md:text-lg whitespace-nowrap transition-colors">
                             Printer Technical Support
                         </Link>
                     </div>

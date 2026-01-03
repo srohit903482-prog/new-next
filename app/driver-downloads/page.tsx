@@ -15,7 +15,7 @@ export default function DriverDownloadsPage() {
             <section className="section-padding bg-white">
                 <div className="container mx-auto px-6">
                     <div className="max-w-4xl mx-auto bg-soft-blue p-8 rounded-xl border border-light-blue mb-12">
-                        <h3 className="text-xl font-bold text-professional-navy mb-4"><i className="fas fa-info-circle text-medium-blue mr-2"></i>Important Note</h3>
+                        <h3 className="text-xl font-bold text-professional-navy mb-4"><i className="fas fa-info-circle text-[#0096D6] mr-2"></i>Important Note</h3>
                         <p className="text-medium-gray">
                             For the best stability and performance, we recommend using the drivers provided by your operating system (Windows/Mac) when available.
                             Only install full feature software packages if you need specific functionality like scanning to OCR or advanced color management.
@@ -37,7 +37,7 @@ export default function DriverDownloadsPage() {
                                     <li key={i}>
                                         <a href={link.url} target="_blank" rel="noopener noreferrer" className="flex items-center justify-between p-3 bg-soft-gray rounded-lg hover:bg-light-gray transition-colors">
                                             <span className="font-medium text-professional-navy">{link.name}</span>
-                                            <i className="fas fa-external-link-alt text-medium-blue"></i>
+                                            <i className="fas fa-external-link-alt text-[#0096D6]"></i>
                                         </a>
                                     </li>
                                 ))}
