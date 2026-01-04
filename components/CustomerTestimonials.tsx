@@ -2,6 +2,10 @@
 
 'use client';
 
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 export default function CustomerTestimonials() {
 
     const testimonials = [
@@ -73,31 +77,42 @@ export default function CustomerTestimonials() {
                     <p className="text-lg text-gray-600 mb-6">
                         Real reviews from real customers who we've helped
                     </p>
-                    <div className="flex items-center justify-center gap-2">
+                    {/* <div className="flex items-center justify-center gap-2">
                         <div className="flex text-yellow-400 text-xl">
                             ★★★★★
                         </div>
                         <span className="text-xl font-semibold text-gray-800">4.9 out of 5</span>
-                    </div>
+                    </div> */}
                 </div>
 
-                <div className="relative overflow-hidden">
-                    <style jsx>{`
-                        @keyframes marquee {
-                            0% { transform: translateX(0); }
-                            100% { transform: translateX(-50%); }
+                <Slider
+                    dots={true}
+                    infinite={true}
+                    speed={500}
+                    slidesToShow={3}
+                    slidesToScroll={1}
+                    autoplay={true}
+                    autoplaySpeed={3000}
+                    responsive={[
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                            }
+                        },
+                        {
+                            breakpoint: 640,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
                         }
-                        .marquee-container {
-                            animation: marquee 40s linear infinite;
-                        }
-                        .marquee-container:hover {
-                            animation-play-state: paused;
-                        }
-                    `}</style>
-                    
-                    <div className="marquee-container flex gap-6">
-                        {[...testimonials, ...testimonials].map((testimonial, index) => (
-                            <div key={index} className="bg-white rounded-lg p-6 shadow-sm border border-gray-200 w-80 flex-shrink-0">
+                    ]}
+                >
+                    {testimonials.map((testimonial, index) => (
+                        <div key={index} className="px-3">
+                            <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-200">
                                 <div className="flex items-center gap-3 mb-4">
                                     <div className="w-12 h-12 rounded-full bg-gray-300 flex items-center justify-center text-white font-semibold">
                                         {testimonial.name.charAt(0)}
@@ -119,9 +134,9 @@ export default function CustomerTestimonials() {
                                     {testimonial.verified}
                                 </div>
                             </div>
-                        ))}
-                    </div>
-                </div>
+                        </div>
+                    ))}
+                </Slider>
             </div>
         </section>
     );

@@ -12,7 +12,7 @@ export default function Home() {
                 <div className="absolute inset-0 opacity-5">
                     <div className="absolute inset-0" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fillRule='evenodd' fillOpacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z' fill='%23000000'/%3E%3C/g%3E%3C/svg%3E")` }}></div>
                 </div>
-                <div className="relative container mx-auto px-6 py-20 md:py-32 text-center">
+                <div className="relative container mx-auto px-6 py-20 md:py-20 text-center">
                     <div className="max-w-4xl mx-auto">
                         <h1 className="text-4xl md:text-6xl font-bold text-professional-navy mb-6 leading-tight">
                             Professional Printer<br /><span className="text-[#0096D6]">Technical Support</span>
@@ -30,7 +30,7 @@ export default function Home() {
                                 </div>
                                 <h3 className="font-bold text-lg mb-2">HP Support</h3>
                                 <p className="text-sm text-gray-600 mb-4">LaserJet, OfficeJet, DeskJet, Envy</p>
-                                <Link href="/support/hp" className="block w-full bg-medium-blue hover:bg-professional-navy text-white text-center py-3 rounded-lg font-semibold smooth-transition">
+                                <Link href="/support/hp" className="block w-full bg-medium-blue hover:bg-[#024AD8] text-white text-center py-3  rounded-lg font-semibold smooth-transition">
                                     Get Support
                                 </Link>
                             </div>
@@ -42,7 +42,7 @@ export default function Home() {
                                 </div>
                                 <h3 className="font-bold text-lg mb-2">Brother Support</h3>
                                 <p className="text-sm text-gray-600 mb-4">MFC, HL, DCP, InkBenefit</p>
-                                <Link href="/support/brother" className="block w-full bg-medium-blue hover:bg-professional-navy text-white text-center py-3 rounded-lg font-semibold smooth-transition">
+                                <Link href="/support/brother" className="block w-full bg-medium-blue hover:bg-[#0D2EA0] text-white text-center py-3 rounded-lg font-semibold smooth-transition">
                                     Get Support
                                 </Link>
                             </div>
@@ -54,7 +54,7 @@ export default function Home() {
                                 </div>
                                 <h3 className="font-bold text-lg mb-2">Canon Support</h3>
                                 <p className="text-sm text-gray-600 mb-4">PIXMA, MAXIFY, imageCLASS</p>
-                                <Link href="/support/canon" className="block w-full bg-medium-blue hover:bg-professional-navy text-white text-center py-3 rounded-lg font-semibold smooth-transition">
+                                <Link href="/support/canon" className="block w-full bg-medium-blue hover:bg-[#CC0000] text-white text-center py-3 rounded-lg font-semibold smooth-transition">
                                     Get Support
                                 </Link>
                             </div>
@@ -212,7 +212,7 @@ export default function Home() {
                                         </div>
                                     ))}
                                 </div>
-                                <Link href="/support/hp" className="block w-full bg-medium-blue hover:bg-professional-navy text-white text-center py-3 rounded-lg font-semibold smooth-transition">
+                                <Link href="/support/hp" className="block w-full bg-medium-blue hover:bg-[#024AD8] text-white text-center py-3 rounded-lg font-semibold smooth-transition">
                                     View HP Support →
                                 </Link>
                             </div>
@@ -238,7 +238,7 @@ export default function Home() {
                                         </div>
                                     ))}
                                 </div>
-                                <Link href="/support/brother" className="block w-full bg-accent-sage hover:bg-professional-navy text-white text-center py-3 rounded-lg font-semibold smooth-transition">
+                                <Link href="/support/brother" className="block w-full bg-accent-sage hover:bg-[#0D2EA0] text-white text-center py-3 rounded-lg font-semibold smooth-transition">
                                     View Brother Support →
                                 </Link>
                             </div>
@@ -264,7 +264,7 @@ export default function Home() {
                                         </div>
                                     ))}
                                 </div>
-                                <Link href="/support/canon" className="block w-full bg-medium-blue hover:bg-professional-navy text-white text-center py-3 rounded-lg font-semibold smooth-transition">
+                                <Link href="/support/canon" className="block w-full bg-medium-blue hover:bg-[#CC0000] text-white text-center py-3 rounded-lg font-semibold smooth-transition">
                                     View Canon Support →
                                 </Link>
                             </div>
@@ -354,7 +354,7 @@ export default function Home() {
                     </div>
                 </div>
                 <CustomerTestimonials/>
-                <TrustedBrands/>
+                {/* <TrustedBrands/> */}
             </section>
         </main>
     );

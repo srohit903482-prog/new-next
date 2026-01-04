@@ -30,9 +30,9 @@ export default function TroubleshootingPage() {
                                 </div>
                             ))}
                         </div>
-                        <a href="tel:9034821319" className="bg-professional-navy hover:bg-medium-blue text-white px-8 py-4 rounded-xl font-semibold hover-lift floating-action inline-flex items-center gap-3">
+                        <a href="tel:9034821319" className="bg-professional-navy md:inline-flex  hover:bg-medium-blue text-white px-8 py-4 rounded-xl font-semibold hover-lift floating-action  items-center gap-3">
                             <i className="fas fa-headset"></i>
-                            <span>Need Expert Help? Call 903-482-1319</span>
+                            <span className='mx-4'>Expert Help? Call 903-482-1319</span>
                         </a>
                     </div>
                 </div>
