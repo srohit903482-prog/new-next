@@ -1,0 +1,13 @@
+@media (max-width: 768px) {
+  .testimonial-slider .slick-slide {
+    width: 100% !important;
+  }
+  
+  .testimonial-slider .slick-track {
+    display: flex !important;
+  }
+  
+  .testimonial-slider .slick-slide > div {
+    width: 100% !important;
+  }
+}
