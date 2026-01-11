@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import TrustedBrands from "@/components/TrustedBrands";
 import CustomerTestimonials from "@/components/CustomerTestimonials";
+import ProfessionalHelp from "@/components/ProfessionalHelp";
 
 export default function Home() {
   return (
@@ -497,9 +498,8 @@ export default function Home() {
           </div>
         </div>
         {/* <TrustedBrands/> */}
-        <div>
           <CustomerTestimonials />
-        </div>
+          <ProfessionalHelp />
       </section>
     </main>
   );

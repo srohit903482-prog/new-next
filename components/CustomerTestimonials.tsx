@@ -84,8 +84,9 @@ export default function CustomerTestimonials() {
           modules={[Pagination, Autoplay]}
           spaceBetween={20}
           slidesPerView={1}
-          pagination={{ clickable: true }}
+          pagination={{ clickable: true, dynamicBullets: true }}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
+          className="pb-12"
           breakpoints={{
             768: {
               slidesPerView: 2,

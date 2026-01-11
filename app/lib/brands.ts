@@ -32,6 +32,7 @@ export const brandsData: Record<string, BrandData> = {
             { title: "Print Quality", description: "Fix streaks, fading, and color misalignment on your prints.", icon: "fa-fill-drip" },
         ]
     },
+    
     brother: {
         name: "Brother",
         fullName: "Brother",
