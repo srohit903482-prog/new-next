@@ -156,7 +156,7 @@ export default function ProfessionalHelp() {
 
                 <button
                   type="submit"
-                  className="w-full bg-gray-700 text-white  md:py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors flex items-center justify-center gap-2"
+                  className="w-full bg-gray-700 text-white py-3  md:py-4 rounded-lg font-semibold hover:bg-gray-800 transition-colors flex items-center justify-center gap-2"
                 >
                   Send Technical Request
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
