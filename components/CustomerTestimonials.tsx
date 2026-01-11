@@ -107,7 +107,15 @@ export default function CustomerTestimonials() {
                                 slidesToShow: 1,
                                 slidesToScroll: 1
                             }
+                        },
+                        {
+                            breakpoint: 390,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
                         }
+
                     ]}
                 >
                     {testimonials.map((testimonial, index) => (
