@@ -26,7 +26,7 @@ export default function Footer() {
                             <li><Link href="/support/hp" className="text-gray-300 hover:text-[#0096D6]">HP Support</Link></li>
                             <li><Link href="/support/brother" className="text-gray-300 hover:text-[#0096D6]">Brother Support</Link></li>
                             <li><Link href="/support/canon" className="text-gray-300 hover:text-[#0096D6]">Canon Support</Link></li>
-                            <li><Link href="/other-brands" className="text-gray-300 hover:text-[#0096D6]">Other Brands</Link></li>
+                            <li><Link href="/pricing" className="text-gray-300 hover:text-[#0096D6]">Support Plans</Link></li>
                         </ul>
                     </div>
 
