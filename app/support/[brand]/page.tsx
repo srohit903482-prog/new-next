@@ -214,128 +214,116 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
           </div>
         </div>
 
-        {/* Detailed Issues Section */}
+        {/* Detailed Issues We Fix Section */}
 
         <div className="container mx-auto px-6 mt-16">
           <h2 className="text-3xl font-bold text-center text-black mb-12">
             Common {brand.name} Printer Issues We Fix
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-xl">
-              <div className="flex items-start gap-4 mb-4">
-                <div
-                  className="w-12 h-12 rounded-full flex items-center justify-center"
-                  style={{ backgroundColor: brand.color }}
-                >
-                  <i className="fas fa-wifi text-white text-xl"></i>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: brand.color }}>
+                  <i className="fas fa-wifi text-white text-lg"></i>
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">Connectivity Problems</h3>
+                <div className="flex-1">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-2">Connectivity Problems</h3>
                   <p className="text-gray-600 text-sm mb-3">
                     Wi-Fi setup issues, network drops, USB connection failures, and printer not found errors.
                   </p>
                   <ul className="space-y-2">
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      Wireless network configuration
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>Wireless network configuration</span>
                     </li>
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      USB and Ethernet connectivity
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>USB and Ethernet connectivity</span>
                     </li>
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      Mobile printing setup ({brand.name} Smart app)
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>Mobile printing setup ({brand.name} Smart app)</span>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-xl">
-              <div className="flex items-start gap-4 mb-4">
-                <div
-                  className="w-12 h-12 rounded-full flex items-center justify-center"
-                  style={{ backgroundColor: brand.color }}
-                >
-                  <i className="fas fa-tint text-white text-xl"></i>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: brand.color }}>
+                  <i className="fas fa-tint text-white text-lg"></i>
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">Print Quality Issues</h3>
+                <div className="flex-1">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-2">Print Quality Issues</h3>
                   <p className="text-gray-600 text-sm mb-3">
                     Faded prints, streaks, smudges, wrong colors, and printhead alignment problems.
                   </p>
                   <ul className="space-y-2">
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      Printhead cleaning and alignment
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>Printhead cleaning and alignment</span>
                     </li>
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      Color calibration and settings
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>Color calibration and settings</span>
                     </li>
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      Ink cartridge troubleshooting
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>Ink cartridge troubleshooting</span>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-xl">
-              <div className="flex items-start gap-4 mb-4">
-                <div
-                  className="w-12 h-12 rounded-full flex items-center justify-center"
-                  style={{ backgroundColor: brand.color }}
-                >
-                  <i className="fas fa-exclamation-triangle text-white text-xl"></i>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: brand.color }}>
+                  <i className="fas fa-exclamation-triangle text-white text-lg"></i>
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">Error Messages</h3>
+                <div className="flex-1">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-2">Error Messages</h3>
                   <p className="text-gray-600 text-sm mb-3">
                     {brand.name} error codes, paper jams, ink system failures, and device status problems.
                   </p>
                   <ul className="space-y-2">
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      Error code diagnosis and resolution
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>Error code diagnosis and resolution</span>
                     </li>
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      Paper jam removal and prevention
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>Paper jam removal and prevention</span>
                     </li>
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      Firmware updates and reset procedures
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>Firmware updates and reset procedures</span>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="bg-white p-6 rounded-xl">
-              <div className="flex items-start gap-4 mb-4">
-                <div
-                  className="w-12 h-12 rounded-full flex items-center justify-center"
-                  style={{ backgroundColor: brand.color }}
-                >
-                  <i className="fas fa-cog text-white text-xl"></i>
+            <div className="bg-white p-6 rounded-xl shadow-sm">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 flex-shrink-0 rounded-full flex items-center justify-center" style={{ backgroundColor: brand.color }}>
+                  <i className="fas fa-cog text-white text-lg"></i>
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">Driver & Software</h3>
+                <div className="flex-1">
+                  <h3 className="text-lg md:text-xl font-bold text-gray-800 mb-2">Driver & Software</h3>
                   <p className="text-gray-600 text-sm mb-3">
                     Driver installation failures, software conflicts, and compatibility issues.
                   </p>
                   <ul className="space-y-2">
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      {brand.name} driver installation and updates
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>{brand.name} driver installation and updates</span>
                     </li>
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      {brand.name} Smart app setup and troubleshooting
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>{brand.name} Smart app setup and troubleshooting</span>
                     </li>
-                    <li className="flex items-center gap-2 text-sm text-gray-700">
-                      <i className="fas fa-check" style={{ color: brand.color }}></i>
-                      Operating system compatibility
+                    <li className="flex items-start gap-2 text-sm text-gray-700">
+                      <i className="fas fa-check mt-0.5 flex-shrink-0" style={{ color: brand.color }}></i>
+                      <span>Operating system compatibility</span>
                     </li>
                   </ul>
                 </div>
