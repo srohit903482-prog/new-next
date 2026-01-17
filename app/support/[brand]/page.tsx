@@ -107,13 +107,15 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
       <section className="py-16 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-professional-navy mb-12">
-            Supported {brand.name} Series
+            {/* Supported  {brand.name} Series */}
+            {/* Get Expert Solutions for {brand.name} Printers */}
+            {brand.name} Printer Series We Support
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {brand.series.map((item, index) => (
               <div
                 key={index}
-                className="bg-soft-gray p-6 rounded-xl text-center hover:shadow-md transition-shadow border border-light-gray"
+                className="bg-white p-6 rounded-xl shadow-md text-center hover:shadow-md transition-shadow border border-light-gray"
               >
                 <i
                   style={{
@@ -131,7 +133,7 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
 
       {/* Details Card Section */}
 
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-professional-navy mb-12">
             {brand.name} Printer Series We Support
@@ -178,13 +180,14 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Common Issues */}
-      <section className="py-16 bg-soft-blue">
-        <div className="container mx-auto px-6">
+      <section className="py-6 bg-soft-blue">
+        {/* <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-professional-navy mb-12">
             Common {brand.name} Issues We Fix
+
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {brand.commonIssues.map((issue, index) => (
@@ -212,7 +215,7 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Detailed Issues We Fix Section */}
 
@@ -342,29 +345,29 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#FF6B35' }}>
-                <i className="fas fa-phone text-white text-3xl"></i>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#FF6B35' }}>
+                <i className="fas fa-phone text-white text-2xl"></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">1. Contact Us</h3>
               <p className="text-gray-600">Call our support line or start a live chat with our {brand.name} specialists.</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#8FB339' }}>
-                <i className="fas fa-search text-white text-3xl"></i>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#8FB339' }}>
+                <i className="fas fa-search text-white text-2xl"></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">2. Diagnosis</h3>
               <p className="text-gray-600">Our technicians identify the root cause of your {brand.name} printer issue.</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#5B9BD5' }}>
-                <i className="fas fa-tools text-white text-3xl"></i>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#5B9BD5' }}>
+                <i className="fas fa-tools text-white text-2xl"></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">3. Resolution</h3>
               <p className="text-gray-600">We provide step-by-step guidance or remote support to fix the issue.</p>
             </div>
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#17A2B8' }}>
-                <i className="fas fa-check text-white text-3xl"></i>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#17A2B8' }}>
+                <i className="fas fa-check text-white text-2xl"></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">4. Verification</h3>
               <p className="text-gray-600">We ensure your {brand.name} printer is working perfectly before completion.</p>
@@ -389,7 +392,7 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
               borderRadius: "5px"
             }}
             href="tel:9034821319"
-            className="inline-block  text-white text-xl font-bold px-10 py-5 rounded-full hover:bg-white hover:text-accent-teal transition-all transform hover:scale-105 shadow-lg"
+            className="inline-block  text-white text-xl font-bold px-8 py-2 rounded-full hover:bg-white hover:text-accent-teal transition-all transform hover:scale-105 shadow-lg"
           >
             Call 903-482-1319
           </a>

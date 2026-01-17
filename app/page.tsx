@@ -3,6 +3,7 @@ import Image from "next/image";
 import TrustedBrands from "@/components/TrustedBrands";
 import CustomerTestimonials from "@/components/CustomerTestimonials";
 import ProfessionalHelp from "@/components/ProfessionalHelp";
+import PrinterSelection from "@/components/PrinterSelection";
 
 export default function Home() {
   return (
@@ -107,6 +108,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Printer Solution Section  */}
+      <PrinterSelection />
 
       {/* Remote Support Section */}
       <section id="remote" className="section-padding bg-soft-white">
@@ -498,8 +501,8 @@ export default function Home() {
           </div>
         </div>
         {/* <TrustedBrands/> */}
-          <CustomerTestimonials />
-          <ProfessionalHelp />
+        <CustomerTestimonials />
+        <ProfessionalHelp />
       </section>
     </main>
   );
