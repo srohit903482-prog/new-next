@@ -84,9 +84,12 @@ export default function CustomerTestimonials() {
           modules={[Pagination, Autoplay]}
           spaceBetween={20}
           slidesPerView={1}
-          pagination={{ clickable: true, dynamicBullets: true }}
+          pagination={{ 
+            clickable: true, 
+            dynamicBullets: true,
+            el: '.custom-pagination'
+          }}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
-          className="pb-12"
           breakpoints={{
             768: {
               slidesPerView: 2,
@@ -98,7 +101,7 @@ export default function CustomerTestimonials() {
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index} className="h-auto">
-              <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-200 h-full flex flex-col">
+              <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-200 h-full flex flex-col min-h-[280px]">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-12 h-12 rounded-full bg-gray-400 flex items-center justify-center text-white font-semibold">
                     {testimonial.name.charAt(0)}
@@ -125,6 +128,8 @@ export default function CustomerTestimonials() {
             </SwiperSlide>
           ))}
         </Swiper>
+        
+        <div className="custom-pagination w-full flex justify-center items-center mt-8" style={{position: 'relative'}}></div>
       </div>
     </section>
   );

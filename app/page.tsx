@@ -97,14 +97,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Browse Services */}
-            <Link
-              href="#brands"
-              className="inline-flex items-center gap-3 bg-professional-navy text-white px-8 py-4 rounded-lg font-semibold hover-lift floating-action"
-            >
-              <span>Browse Printer Support</span>
-              <i className="fas fa-arrow-down"></i>
-            </Link>
+
           </div>
         </div>
       </section>
@@ -251,7 +244,7 @@ export default function Home() {
           {/* Primary Brands */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
             {/* HP Brand Card */}
-            <div className="bg-white rounded-2xl overflow-hidden card-shadow brand-card-hover border border-light-gray">
+            <div className="bg-white rounded-2xl overflow-hidden card-shadow brand-card-hover border border-light-gray flex flex-col h-full">
               <div className="p-8 bg-gradient-to-br from-soft-blue to-white flex flex-col items-center">
                 <div className="relative w-16 h-16 mb-2">
                   <Image src="/images/hp-logo.png" alt="HP Logo" fill className="object-contain" />
@@ -261,7 +254,7 @@ export default function Home() {
                   <Image src="/images/hp-printer.png" alt="HP Printer" fill className="object-contain" />
                 </div>
               </div>
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-grow">
                 <p className="text-medium-gray mb-6">
                   Complete support for LaserJet, OfficeJet, DeskJet, and Envy series printers.
                 </p>
@@ -278,7 +271,7 @@ export default function Home() {
                 </div>
                 <Link
                   href="/support/hp"
-                  className="block w-full bg-medium-blue hover:bg-[#024AD8] text-white text-center py-3 rounded-lg font-semibold smooth-transition"
+                  className="block w-full bg-medium-blue hover:bg-[#024AD8] text-white text-center py-3 rounded-lg font-semibold smooth-transition mt-auto"
                 >
                   View HP Support →
                 </Link>
@@ -286,7 +279,7 @@ export default function Home() {
             </div>
 
             {/* Brother Brand Card */}
-            <div className="bg-white rounded-2xl overflow-hidden card-shadow brand-card-hover border border-light-gray">
+            <div className="bg-white rounded-2xl overflow-hidden card-shadow brand-card-hover border border-light-gray flex flex-col h-full">
               <div className="p-8 bg-gradient-to-br from-warm-gray to-white flex flex-col items-center">
                 <div className="relative w-48 h-16 mb-2">
                   <Image src="/images/brother-logo.png" alt="Brother Logo" fill className="object-contain" />
@@ -301,7 +294,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-grow">
                 <p className="text-medium-gray mb-6">
                   Expert support for Brother all-in-ones, label makers, and business printers.
                 </p>
@@ -316,7 +309,7 @@ export default function Home() {
                 </div>
                 <Link
                   href="/support/brother"
-                  className="block w-full bg-accent-sage hover:bg-[#0D2EA0] text-white text-center py-3 rounded-lg font-semibold smooth-transition"
+                  className="block w-full bg-accent-sage hover:bg-[#0D2EA0] text-white text-center py-3 rounded-lg font-semibold smooth-transition mt-auto"
                 >
                   View Brother Support →
                 </Link>
@@ -324,7 +317,7 @@ export default function Home() {
             </div>
 
             {/* Canon Brand Card */}
-            <div className="bg-white rounded-2xl overflow-hidden card-shadow brand-card-hover border border-light-gray">
+            <div className="bg-white rounded-2xl overflow-hidden card-shadow brand-card-hover border border-light-gray flex flex-col h-full">
               <div className="p-8 bg-gradient-to-br from-light-gray to-white flex flex-col items-center">
                 <div className="relative w-48 h-16 mb-2">
                   <Image src="/images/canon-logo.png" alt="Canon Logo" fill className="object-contain" />
@@ -339,9 +332,9 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-grow">
                 <p className="text-medium-gray mb-6">
-                  Specialized support for PIXMA, imagePROGRAF, and SELPHY photo printers.
+                  Specialized support for PIXMA, imagePROGRAF, and SELPHY printers.
                 </p>
                 <div className="space-y-3 mb-6">
                   {[
@@ -356,7 +349,7 @@ export default function Home() {
                 </div>
                 <Link
                   href="/support/canon"
-                  className="block w-full bg-medium-blue hover:bg-[#CC0000] text-white text-center py-3 rounded-lg font-semibold smooth-transition"
+                  className="block w-full bg-medium-blue hover:bg-[#CC0000] text-white text-center py-3 rounded-lg font-semibold smooth-transition mt-auto"
                 >
                   View Canon Support →
                 </Link>
