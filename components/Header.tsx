@@ -18,15 +18,15 @@ export default function Header() {
     
     return (
         <header className="bg-soft-white border-b border-light-gray sticky top-0 z-50 shadow-sm backdrop-blur-lg bg-opacity-95">
-            <div className="container mx-auto px-6 sm:px-2  py-4">
+            <div className="container mx-auto px-6 sm:px-2  py-0.5">
                 <nav className="flex justify-between items-center">
                     {/* Logo / Title */}
                     <div className="flex items-center gap-3 text-xl md:text-2xl font-semibold text-professional-navy">
-                        <div className="bg-medium-blue text-white p-2 rounded-lg">
-                            <i className="fas fa-print"></i>
+                        <div className="p-2 rounded-lg">
+                            <img src="/images/web-logo.png" alt="Printer Technical Support" className="w-20 h-20" />
                         </div>
                         <Link href="/" className="hover:text-[#0096D6] text-sm md:text-lg whitespace-nowrap transition-colors">
-                            Printer Technical Support
+                            Print Desk Support – Reliable Printer Assistance
                         </Link>
                     </div>
                     {/* Call Button */}

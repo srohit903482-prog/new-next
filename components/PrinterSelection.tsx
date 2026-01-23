@@ -58,13 +58,13 @@ export default function PrinterSelection() {
               key={index}
               className={`bg-${index % 2 === 0 ? 'gray-10' : 'gray-10'} } rounded-lg p-6 text-center shadow-md hover:shadow-2xl transition-shadow`}
             >
-              <div className="relative inline-flex items-center justify-center w-24 h-24 rounded-full bg-blue-50 mb-4">
+              <div className="relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-50 mb-4">
                 <Image
                   src={service.icon}
                   alt={service.title}
-                  width={96}
-                  height={96}
-                  className="w-24 h-24 z-10"
+                  width={80}
+                  height={80}
+                  className="w-20 h-20 z-10"
                 />
               </div>
               <h3 className="text-lg font-semibold text-gray-800 mb-2">

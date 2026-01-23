@@ -4,6 +4,7 @@ import TrustedBrands from "@/components/TrustedBrands";
 import CustomerTestimonials from "@/components/CustomerTestimonials";
 import ProfessionalHelp from "@/components/ProfessionalHelp";
 import PrinterSelection from "@/components/PrinterSelection";
+import TrustBadges from "@/components/TrustBadges";
 
 export default function Home() {
   return (
@@ -39,8 +40,8 @@ export default function Home() {
                   <Image
                     src="/images/hp-logo.png"
                     alt="HP"
-                    width={80}
-                    height={80}
+                    width={150}
+                    height={150}
                     className="max-h-12 w-auto object-contain"
                   />
                 </div>
@@ -60,8 +61,8 @@ export default function Home() {
                   <Image
                     src="/images/brother-logo.png"
                     alt="Brother"
-                    width={100}
-                    height={100}
+                    width={150}
+                    height={150}
                     className="max-h-12 w-auto object-contain"
                   />
                 </div>
@@ -81,8 +82,8 @@ export default function Home() {
                   <Image
                     src="/images/canon-logo.png"
                     alt="Canon"
-                    width={100}
-                    height={100}
+                    width={150}
+                    height={150}
                     className="max-h-12 w-auto object-contain"
                   />
                 </div>
@@ -101,6 +102,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      {/* Trust Badges */}
+      <TrustBadges />
+      
       {/* Printer Solution Section  */}
       <PrinterSelection />
 
