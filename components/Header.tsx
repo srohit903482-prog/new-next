@@ -26,7 +26,7 @@ export default function Header() {
                             <img src="/images/web-logo.png" alt="Printer Technical Support" className="w-20 h-20" />
                         </div>
                         <Link href="/" className="hover:text-[#0096D6] text-sm md:text-lg whitespace-nowrap transition-colors">
-                            Print Desk Support – Reliable Printer Assistance
+                            Printdesk Support
                         </Link>
                     </div>
                     {/* Call Button */}
