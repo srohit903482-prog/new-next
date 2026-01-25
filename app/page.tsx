@@ -49,7 +49,7 @@ export default function Home() {
                 <p className="text-sm text-gray-600 mb-4">LaserJet, OfficeJet, DeskJet, Envy</p>
                 <Link
                   href="/support/hp"
-                  className="block w-full bg-medium-blue hover:bg-[#024AD8] text-white text-center py-3  rounded-lg font-semibold smooth-transition"
+                  className="block w-full bg-medium-blue hover:bg-[#0096D6] text-white text-center py-3  rounded-lg font-semibold smooth-transition"
                 >
                   Get Support
                 </Link>

@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import styles from './CustomerTestimonials.module.css';
 
 
 export default function CustomerTestimonials() {
@@ -86,8 +87,7 @@ export default function CustomerTestimonials() {
           slidesPerView={1}
           pagination={{ 
             clickable: true, 
-            dynamicBullets: true,
-            el: '.custom-pagination'
+            dynamicBullets: true
           }}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           breakpoints={{
@@ -129,7 +129,8 @@ export default function CustomerTestimonials() {
           ))}
         </Swiper>
         
-        <div className="custom-pagination w-full flex justify-center items-center mt-8" style={{position: 'relative'}}></div>
+        <div className="mt-8"></div>
+
       </div>
     </section>
   );

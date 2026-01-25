@@ -9,7 +9,7 @@ export default function Header() {
     
     const getBrandColors = () => {
         switch(brand) {
-            case 'hp': return 'bg-blue-600 hover:bg-blue-700';
+            case 'hp': return 'bg-[#0096D6] hover:bg-[#0096D6]';
             case 'brother': return 'bg-[#0D2EA0] hover:bg-[#0D2EA0]';
             case 'canon': return 'bg-red-600 hover:bg-red-700';
             default: return 'bg-[rgb(0,150,214)] hover:bg-sky-400';
@@ -25,9 +25,9 @@ export default function Header() {
                         <div className="p-2 rounded-lg">
                             <img src="/images/web-logo.png" alt="Printer Technical Support" className="w-12 h-12 md:w-20 md:h-20" />
                         </div>
-                        <Link href="/" className="hover:text-[#0096D6] text-sm md:text-lg whitespace-nowrap transition-colors hidden md:block">
+                        <h1 className="hover:text-[#0096D6] text-lg md:text-2xl whitespace-nowrap transition-colors hidden md:block font-serif">
                             PrintDesk Support
-                        </Link>
+                        </h1>
                     </div>
                     {/* Call Button */}
                     <a href="tel:9034821319" className={`${getBrandColors()} text-white text-xs md:text-sm px-2 py-1.5 rounded-lg font-medium transition-all duration-300 shadow-md hover:shadow-lg`}>

@@ -18,7 +18,7 @@ export default function ChatWidget() {
     
     const getBrandColors = () => {
         switch(brand) {
-            case 'hp': return { bg: 'bg-blue-600', hover: 'hover:bg-blue-700', focus: 'focus:border-blue-600 focus:ring-blue-600' };
+            case 'hp': return { bg: 'bg-[#0096D6]', hover: 'hover:bg-[#0096D6]', focus: 'focus:border-[#0096D6] focus:ring-[#0096D6]' };
             case 'brother': return { bg: 'bg-[#0D2EA0]', hover: 'hover:bg-[#0D2EA0]', focus: 'focus:border-orange-600 focus:ring-orange-600' };
             case 'canon': return { bg: 'bg-red-600', hover: 'hover:bg-red-700', focus: 'focus:border-red-600 focus:ring-red-600' };
             default: return { bg: 'bg-[rgb(135,169,107)]', hover: 'hover:bg-medium-blue', focus: 'focus:border-medium-blue focus:ring-medium-blue' };

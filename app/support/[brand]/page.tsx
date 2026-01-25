@@ -19,7 +19,7 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
   return (
     <main>
       {/* Hero Section */}
-      <section className={`bg-gradient-to-b ${brand.heroGradient} py-20`}>
+      <section className={`bg-gradient-to-b ${brand.heroGradient} py-8 pb-16`}>
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
@@ -459,29 +459,29 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center bg-gray-400">
-                <i className="fas fa-phone text-white text-2xl"></i>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: `${brand.color}20` }}>
+                <i className="fas fa-phone text-2xl" style={{ color: brand.color }}></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">1. Contact Us</h3>
               <p className="text-gray-600">Call our support line or start a live chat with our {brand.name} specialists.</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center bg-gray-400">
-                <i className="fas fa-search text-white text-2xl"></i>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: `${brand.color}20` }}>
+                <i className="fas fa-search text-2xl" style={{ color: brand.color }}></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">2. Diagnosis</h3>
               <p className="text-gray-600">Our technicians identify the root cause of your {brand.name} printer issue.</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center bg-gray-400">
-                <i className="fas fa-tools text-white text-2xl"></i>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: `${brand.color}20` }}>
+                <i className="fas fa-tools text-2xl" style={{ color: brand.color }}></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">3. Resolution</h3>
               <p className="text-gray-600">We provide step-by-step guidance or remote support to fix the issue.</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center bg-gray-400">
-                <i className="fas fa-check text-white text-2xl"></i>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: `${brand.color}20` }}>
+                <i className="fas fa-check text-2xl" style={{ color: brand.color }}></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">4. Verification</h3>
               <p className="text-gray-600">We ensure your {brand.name} printer is working perfectly before completion.</p>

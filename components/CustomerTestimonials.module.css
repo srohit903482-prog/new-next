@@ -11,3 +11,18 @@
     width: 100% !important;
   }
 }
+
+.swiper-pagination {
+  position: static !important;
+  margin-top: 2rem !important;
+}
+
+.swiper-pagination-bullet {
+  background: #6b7280 !important;
+  opacity: 0.5 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #0096d6 !important;
+  opacity: 1 !important;
+}
