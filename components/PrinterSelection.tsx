@@ -46,17 +46,18 @@ const services = [
 
 export default function PrinterSelection() {
   return (
-    <section className="pt-16 px-4 bg-w-50">
+    <section className="pt-8 px-4 bg-w-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800 mb-3">Get Expert Solutions </h2>
+          <p className="text-lg text-gray-600">Professional services covering every aspect of printer support and maintenance</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-24">
           {services.map((service, index) => (
             <div 
               key={index}
-              className={`bg-${index % 2 === 0 ? 'gray-10' : 'gray-10'} } rounded-lg p-6 text-center shadow-md hover:shadow-2xl transition-shadow`}
+              className={`bg-${index % 2 === 0 ? 'gray-10' : 'gray-10'} } rounded-lg p-4 text-center shadow-md hover:shadow-2xl transition-shadow`}
             >
               <div className="relative inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-50 mb-4">
                 <Image
@@ -67,10 +68,10 @@ export default function PrinterSelection() {
                   className="w-20 h-20 z-10"
                 />
               </div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">
+              <h3 className="text-base font-semibold text-gray-800 mb-2">
                 {service.title}
               </h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-xs">
                 {service.description}
               </p>
             </div>

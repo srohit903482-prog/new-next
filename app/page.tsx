@@ -20,7 +20,7 @@ export default function Home() {
             }}
           ></div>
         </div>
-        <div className="relative container mx-auto px-6 py-20 md:py-20 text-center">
+        <div className="relative container mx-auto px-6 py-20 md:py-16 text-center">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold text-professional-navy mb-6 leading-tight">
               Professional Printer

@@ -117,16 +117,130 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
                 key={index}
                 className="bg-white p-6 rounded-xl shadow-md text-center hover:shadow-md transition-shadow border border-light-gray"
               >
-                <i
-                  style={{
-                    color: brand.color,
-                    border: `px solid ${brand.color}`
-                  }}
-                  className="fas fa-print text-4xl text-[#0096D6] mb-4"
-                ></i>
+                <div className="flex justify-center mb-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64" fill={brand.color} style={{opacity:1}}>
+                    <path d="M24.57 12.125h-2.12c-.208-1.34-1.248-2.76-2.445-3.967c-1.277-1.24-2.654-2.234-3.784-2.37a2 2 0 0 0-.197-.015h-7.43a.45.45 0 0 0-.45.452v5.9H6.07a2 2 0 0 0-2 2V23h4.073v2.08a.45.45 0 0 0 .452.447h13.444c.117 0 .23-.045.317-.13s.138-.2.138-.318V23h4.074v-8.875a2 2 0 0 0-2-2zm-2.98 12.5H9.042V21.5H21.59v3.126zm0-10.704q.001-.045-.004-.095a.45.45 0 0 0-.124-.2H9.042v-6.95h6.988c.305-.018.567.283.77.972c.182.655.228 1.51.228 2.102c0 .432-.02.724-.02.724l-.036.478l.48.005c.002 0 1.11.014 2.196.26c1.044.226 1.86.675 1.938 1.184q.004.07.003.134v1.387z"/>
+                  </svg>
+                </div>
                 <h3 className="font-semibold text-gray-800">{item}</h3>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-professional-navy mb-4">Our Services</h2>
+            <p className="text-lg text-medium-gray max-w-3xl mx-auto">We provide comprehensive printer support to ensure your business operations run smoothly without technical interruptions.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              <div className="relative w-16 h-16 rounded-xl bg-gray-100 flex items-center justify-center mb-4">
+                <svg className="absolute inset-0 w-full h-full opacity-20" fill="#000000" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M210.6665,76H196V40a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4V76H45.3335C33.57031,76,24,84.97168,24,96v80a4.0002,4.0002,0,0,0,4,4H60v40a4.0002,4.0002,0,0,0,4,4H192a4.0002,4.0002,0,0,0,4-4V180h32a4.0002,4.0002,0,0,0,4-4V96C232,84.97168,222.42969,76,210.6665,76ZM68,44H188V76H68ZM188,216H68V156H188Zm36-44H196V152a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4v20H32V96c0-6.61719,5.98145-12,13.3335-12h165.333C218.01855,84,224,89.38281,224,96Zm-27.99414-56a8,8,0,1,1-8-8A8.00917,8.00917,0,0,1,196.00586,116Z"/>
+                </svg>
+                <div className="absolute top-1 right-1 w-6 h-6 rounded flex items-center justify-center z-10" style={{ backgroundColor: brand.color }}>
+                  <i className="fa-solid fa-download text-white text-xs"></i>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Driver Installation</h3>
+              <p className="text-gray-600 text-sm">Seamless installation of the latest printer drivers for all operating systems to ensure compatibility and performance.</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              <div className="relative w-16 h-16 rounded-xl bg-gray-100 flex items-center justify-center mb-4">
+                <svg className="absolute inset-0 w-full h-full opacity-20" fill="#000000" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M210.6665,76H196V40a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4V76H45.3335C33.57031,76,24,84.97168,24,96v80a4.0002,4.0002,0,0,0,4,4H60v40a4.0002,4.0002,0,0,0,4,4H192a4.0002,4.0002,0,0,0,4-4V180h32a4.0002,4.0002,0,0,0,4-4V96C232,84.97168,222.42969,76,210.6665,76ZM68,44H188V76H68ZM188,216H68V156H188Zm36-44H196V152a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4v20H32V96c0-6.61719,5.98145-12,13.3335-12h165.333C218.01855,84,224,89.38281,224,96Zm-27.99414-56a8,8,0,1,1-8-8A8.00917,8.00917,0,0,1,196.00586,116Z"/>
+                </svg>
+                <div className="absolute top-1 right-1 w-6 h-6 rounded flex items-center justify-center z-10" style={{ backgroundColor: brand.color }}>
+                  <i className="fa-solid fa-sliders text-white text-xs"></i>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Configuration Support</h3>
+              <p className="text-gray-600 text-sm">Tailored configuration of printer settings to match your specific business needs and workflow requirements.</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              <div className="relative w-16 h-16 rounded-xl bg-gray-100 flex items-center justify-center mb-4">
+                <svg className="absolute inset-0 w-full h-full opacity-20" fill="#000000" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M210.6665,76H196V40a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4V76H45.3335C33.57031,76,24,84.97168,24,96v80a4.0002,4.0002,0,0,0,4,4H60v40a4.0002,4.0002,0,0,0,4,4H192a4.0002,4.0002,0,0,0,4-4V180h32a4.0002,4.0002,0,0,0,4-4V96C232,84.97168,222.42969,76,210.6665,76ZM68,44H188V76H68ZM188,216H68V156H188Zm36-44H196V152a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4v20H32V96c0-6.61719,5.98145-12,13.3335-12h165.333C218.01855,84,224,89.38281,224,96Zm-27.99414-56a8,8,0,1,1-8-8A8.00917,8.00917,0,0,1,196.00586,116Z"/>
+                </svg>
+                <div className="absolute top-1 right-1 w-6 h-6 rounded flex items-center justify-center z-10" style={{ backgroundColor: brand.color }}>
+                  <i className="fa-solid fa-wrench text-white text-xs"></i>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Hardware Repairs</h3>
+              <p className="text-gray-600 text-sm">Expert diagnosis and repair of mechanical issues, from paper jams to replacing worn-out components.</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              <div className="relative w-16 h-16 rounded-xl bg-gray-100 flex items-center justify-center mb-4">
+                <svg className="absolute inset-0 w-full h-full opacity-20" fill="#000000" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M210.6665,76H196V40a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4V76H45.3335C33.57031,76,24,84.97168,24,96v80a4.0002,4.0002,0,0,0,4,4H60v40a4.0002,4.0002,0,0,0,4,4H192a4.0002,4.0002,0,0,0,4-4V180h32a4.0002,4.0002,0,0,0,4-4V96C232,84.97168,222.42969,76,210.6665,76ZM68,44H188V76H68ZM188,216H68V156H188Zm36-44H196V152a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4v20H32V96c0-6.61719,5.98145-12,13.3335-12h165.333C218.01855,84,224,89.38281,224,96Zm-27.99414-56a8,8,0,1,1-8-8A8.00917,8.00917,0,0,1,196.00586,116Z"/>
+                </svg>
+                <div className="absolute top-1 right-1 w-6 h-6 rounded flex items-center justify-center z-10" style={{ backgroundColor: brand.color }}>
+                  <i className="fa-solid fa-network-wired text-white text-xs"></i>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Network Setup</h3>
+              <p className="text-gray-600 text-sm">Configuration of wired and wireless network connections, enabling secure sharing across your office.</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              <div className="relative w-16 h-16 rounded-xl bg-gray-100 flex items-center justify-center mb-4">
+                <svg className="absolute inset-0 w-full h-full opacity-20" fill="#000000" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M210.6665,76H196V40a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4V76H45.3335C33.57031,76,24,84.97168,24,96v80a4.0002,4.0002,0,0,0,4,4H60v40a4.0002,4.0002,0,0,0,4,4H192a4.0002,4.0002,0,0,0,4-4V180h32a4.0002,4.0002,0,0,0,4-4V96C232,84.97168,222.42969,76,210.6665,76ZM68,44H188V76H68ZM188,216H68V156H188Zm36-44H196V152a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4v20H32V96c0-6.61719,5.98145-12,13.3335-12h165.333C218.01855,84,224,89.38281,224,96Zm-27.99414-56a8,8,0,1,1-8-8A8.00917,8.00917,0,0,1,196.00586,116Z"/>
+                </svg>
+                <div className="absolute top-1 right-1 w-6 h-6 rounded flex items-center justify-center z-10" style={{ backgroundColor: brand.color }}>
+                  <i className="fa-solid fa-rotate text-white text-xs"></i>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Software Updates</h3>
+              <p className="text-gray-600 text-sm">Regular firmware and software updates to patch security vulnerabilities and improve device functionality.</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              <div className="relative w-16 h-16 rounded-xl bg-gray-100 flex items-center justify-center mb-4">
+                <svg className="absolute inset-0 w-full h-full opacity-20" fill="#000000" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M210.6665,76H196V40a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4V76H45.3335C33.57031,76,24,84.97168,24,96v80a4.0002,4.0002,0,0,0,4,4H60v40a4.0002,4.0002,0,0,0,4,4H192a4.0002,4.0002,0,0,0,4-4V180h32a4.0002,4.0002,0,0,0,4-4V96C232,84.97168,222.42969,76,210.6665,76ZM68,44H188V76H68ZM188,216H68V156H188Zm36-44H196V152a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4v20H32V96c0-6.61719,5.98145-12,13.3335-12h165.333C218.01855,84,224,89.38281,224,96Zm-27.99414-56a8,8,0,1,1-8-8A8.00917,8.00917,0,0,1,196.00586,116Z"/>
+                </svg>
+                <div className="absolute top-1 right-1 w-6 h-6 rounded flex items-center justify-center z-10" style={{ backgroundColor: brand.color }}>
+                  <i className="fa-solid fa-bug-slash text-white text-xs"></i>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Error Resolution</h3>
+              <p className="text-gray-600 text-sm">Fast troubleshooting and resolution of error codes, connectivity drops, and printing anomalies.</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              <div className="relative w-16 h-16 rounded-xl bg-gray-100 flex items-center justify-center mb-4">
+                <svg className="absolute inset-0 w-full h-full opacity-20" fill="#000000" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M210.6665,76H196V40a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4V76H45.3335C33.57031,76,24,84.97168,24,96v80a4.0002,4.0002,0,0,0,4,4H60v40a4.0002,4.0002,0,0,0,4,4H192a4.0002,4.0002,0,0,0,4-4V180h32a4.0002,4.0002,0,0,0,4-4V96C232,84.97168,222.42969,76,210.6665,76ZM68,44H188V76H68ZM188,216H68V156H188Zm36-44H196V152a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4v20H32V96c0-6.61719,5.98145-12,13.3335-12h165.333C218.01855,84,224,89.38281,224,96Zm-27.99414-56a8,8,0,1,1-8-8A8.00917,8.00917,0,0,1,196.00586,116Z"/>
+                </svg>
+                <div className="absolute top-1 right-1 w-6 h-6 rounded flex items-center justify-center z-10" style={{ backgroundColor: brand.color }}>
+                  <i className="fa-solid fa-screwdriver-wrench text-white text-xs"></i>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Maintenance</h3>
+              <p className="text-gray-600 text-sm">Routine preventive maintenance checks to clean and optimize your printers, extending their lifespan.</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
+              <div className="relative w-16 h-16 rounded-xl bg-gray-100 flex items-center justify-center mb-4">
+                <svg className="absolute inset-0 w-full h-full opacity-20" fill="#000000" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M210.6665,76H196V40a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4V76H45.3335C33.57031,76,24,84.97168,24,96v80a4.0002,4.0002,0,0,0,4,4H60v40a4.0002,4.0002,0,0,0,4,4H192a4.0002,4.0002,0,0,0,4-4V180h32a4.0002,4.0002,0,0,0,4-4V96C232,84.97168,222.42969,76,210.6665,76ZM68,44H188V76H68ZM188,216H68V156H188Zm36-44H196V152a4.0002,4.0002,0,0,0-4-4H64a4.0002,4.0002,0,0,0-4,4v20H32V96c0-6.61719,5.98145-12,13.3335-12h165.333C218.01855,84,224,89.38281,224,96Zm-27.99414-56a8,8,0,1,1-8-8A8.00917,8.00917,0,0,1,196.00586,116Z"/>
+                </svg>
+                <div className="absolute top-1 right-1 w-6 h-6 rounded flex items-center justify-center z-10" style={{ backgroundColor: brand.color }}>
+                  <i className="fa-solid fa-shield-halved text-white text-xs"></i>
+                </div>
+              </div>
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Security Setup</h3>
+              <p className="text-gray-600 text-sm">Implementation of user authentication, encryption, and access controls to protect sensitive data.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -345,28 +459,28 @@ export default function BrandSupportPage({ params }: { params: { brand: string }
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#FF6B35' }}>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center bg-gray-400">
                 <i className="fas fa-phone text-white text-2xl"></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">1. Contact Us</h3>
               <p className="text-gray-600">Call our support line or start a live chat with our {brand.name} specialists.</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#8FB339' }}>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center bg-gray-400">
                 <i className="fas fa-search text-white text-2xl"></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">2. Diagnosis</h3>
               <p className="text-gray-600">Our technicians identify the root cause of your {brand.name} printer issue.</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#5B9BD5' }}>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center bg-gray-400">
                 <i className="fas fa-tools text-white text-2xl"></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">3. Resolution</h3>
               <p className="text-gray-600">We provide step-by-step guidance or remote support to fix the issue.</p>
             </div>
             <div className="text-center">
-              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center" style={{ backgroundColor: '#17A2B8' }}>
+              <div className="w-12 h-12 rounded-full mx-auto mb-6 flex items-center justify-center bg-gray-400">
                 <i className="fas fa-check text-white text-2xl"></i>
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-3">4. Verification</h3>

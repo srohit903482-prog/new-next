@@ -15,23 +15,23 @@ export default function Footer() {
                             <div className="p-2 rounded-lg">
                                 <img src="/images/web-logo.png" alt="Printer Desk Support" className="w-24 h-24" />
                             </div>
-                            <h4 className="text-xl font-semibold">Printdesk Support</h4>
+                            <h4 className="text-xl font-semibold">PrintDesk Support</h4>
                         </div>
                         <p className="text-gray-300 mb-4">Professional technical support for all printer brands with certified technicians.</p>
-                        <div className="flex gap-3">
-                            <a href="#" className="bg-blue-600 hover:bg-blue-700 text-white w-8 h-8 rounded flex items-center justify-center transition-colors">
+                        <div className="flex gap-3 justify-center md:justify-start">
+                            <a href="#" className="bg-gray-500 hover:bg-blue-600 text-white w-8 h-8 rounded flex items-center justify-center transition-colors">
                                 <i className="fab fa-facebook-f text-sm"></i>
                             </a>
-                            <a href="#" className="bg-blue-700 hover:bg-blue-800 text-white w-8 h-8 rounded flex items-center justify-center transition-colors">
+                            <a href="#" className="bg-gray-500 hover:bg-blue-700 text-white w-8 h-8 rounded flex items-center justify-center transition-colors">
                                 <i className="fab fa-linkedin-in text-sm"></i>
                             </a>
-                            <a href="#" className="bg-red-600 hover:bg-red-700 text-white w-8 h-8 rounded flex items-center justify-center transition-colors">
+                            <a href="#" className="bg-gray-500 hover:bg-red-600 text-white w-8 h-8 rounded flex items-center justify-center transition-colors">
                                 <i className="fab fa-youtube text-sm"></i>
                             </a>
-                            <a href="#" className="bg-red-500 hover:bg-red-600 text-white w-8 h-8 rounded flex items-center justify-center transition-colors">
+                            <a href="#" className="bg-gray-500 hover:bg-red-500 text-white w-8 h-8 rounded flex items-center justify-center transition-colors">
                                 <i className="fab fa-pinterest text-sm"></i>
                             </a>
-                            <a href="#" className="bg-pink-500 hover:bg-pink-600 text-white w-8 h-8 rounded flex items-center justify-center transition-colors">
+                            <a href="#" className="bg-gray-500 hover:bg-pink-500 text-white w-8 h-8 rounded flex items-center justify-center transition-colors">
                                 <i className="fab fa-instagram text-sm"></i>
                             </a>
                         </div>
