@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  
   },
   "dependencies": {
     "lucide-react": "^0.378.0",
@@ -32,6 +31,7 @@
     "typescript": "^5"
   }
 }
+
 
 
 
