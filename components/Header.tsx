@@ -21,14 +21,14 @@ export default function Header() {
             <div className="container mx-auto px-6 sm:px-2">
                 <nav className="flex justify-between items-center">
                     {/* Logo / Title */}
-                    <div className="flex items-center gap-3 text-xl md:text-2xl font-semibold text-professional-navy">
+                    <Link href="/" className="flex items-center gap-3 text-xl md:text-2xl font-semibold text-professional-navy hover:opacity-80 transition-opacity">
                         <div className="p-2 rounded-lg">
                             <img src="/images/web-logo.png" alt="Printer Technical Support" className="w-12 h-12 md:w-20 md:h-20" />
                         </div>
                         <h1 className="hover:text-[#0096D6] text-lg md:text-2xl whitespace-nowrap transition-colors hidden md:block font-serif">
                             PrintDesk Support
                         </h1>
-                    </div>
+                    </Link>
                     {/* Call Button */}
                     <a href="tel:9034821319" className={`${getBrandColors()} text-white text-xs md:text-sm px-2 py-1.5 rounded-lg font-medium transition-all duration-300 shadow-md hover:shadow-lg`}>
                         <i className="fas fa-phone mr-2"></i>903-482-1319

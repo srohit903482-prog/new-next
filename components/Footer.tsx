@@ -15,7 +15,7 @@ export default function Footer() {
                             <div className="p-2 rounded-lg">
                                 <img src="/images/web-logo.png" alt="Printer Desk Support" className="w-24 h-24" />
                             </div>
-                            <h4 className="text-xl font-semibold font-serif">PrintDesk Support</h4>
+                            <Link href="/" className="text-xl font-semibold font-serif hover:text-[#0096D6] transition-colors">PrintDesk Support</Link>
                         </div>
                         <p className="text-gray-300 mb-4">Professional technical support for all printer brands with certified technicians.</p>
                         <div className="flex gap-3 justify-center md:justify-start">

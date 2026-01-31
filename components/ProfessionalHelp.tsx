@@ -42,7 +42,7 @@ export default function ProfessionalHelp() {
               {/* Technical Support Line */}
               <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start gap-4">
                 <div className="bg-cyan-500 p-3 rounded-full">
-                  <Phone className="w-6 h-6 text-white" />
+                  <Phone className="w-5 h-5 text-white" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-800 mb-1">Technical Support Line</h4>
@@ -54,8 +54,8 @@ export default function ProfessionalHelp() {
 
               {/* Onsite Technician Service */}
               <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start gap-4">
-                <div className="bg-green-500 p-3 rounded-full">
-                  <Wrench className="w-6 h-6 text-white" />
+                <div className="bg-[rgb(135,169,107)] p-3 rounded-full">
+                  <Wrench className="w-5 h-5 text-white" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-800 mb-1">Onsite Technician Service</h4>
@@ -66,7 +66,7 @@ export default function ProfessionalHelp() {
               {/* Remote Support */}
               <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start gap-4">
                 <div className="bg-blue-500 p-3 rounded-full">
-                  <Laptop className="w-6 h-6 text-white" />
+                  <Laptop className="w-5 h-5 text-white" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-800 mb-1">Remote Support</h4>
@@ -77,7 +77,7 @@ export default function ProfessionalHelp() {
               {/* Support Hours */}
               <div className="bg-white p-5 rounded-lg shadow-sm border border-gray-200 flex items-start gap-4">
                 <div className="bg-gray-700 p-3 rounded-full">
-                  <Clock className="w-6 h-6 text-white" />
+                  <Clock className="w-5 h-5 text-white" />
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-800 mb-1">Support Hours</h4>
